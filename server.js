@@ -16,6 +16,9 @@ mongoose.connect(process.env.MONGO_URI)
 
 app.use("/api/drive", driveRoutes);
 
-app.listen(5000, () => {
-  console.log("Server running on port 5000");
-});
+//app.listen(5000, () => {
+ // console.log("Server running on port 5000");
+//});
+
+export default app;
+
